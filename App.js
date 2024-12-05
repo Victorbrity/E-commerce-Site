@@ -129,6 +129,7 @@ const payment = document.querySelector(".payment");
 const close = document.querySelector(".close");
 
 productButton.addEventListener("click", () => {
+  console.log("button clicked");
   payment.style.display = "flex";
 });
 
